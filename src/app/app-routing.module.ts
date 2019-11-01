@@ -9,6 +9,12 @@ const routes: Routes = [
   { path: 'usa', loadChildren: './usa/usa.module#UsaPageModule' },
   { path: 'argentina', loadChildren: './argentina/argentina.module#ArgentinaPageModule' },
   { path: 'portugual', loadChildren: './portugual/portugual.module#PortugualPageModule' },
+  { path: 'saopaulo2', loadChildren: './saopaulo2/saopaulo2.module#Saopaulo2PageModule' },
+  { path: 'riodejaneiro2', loadChildren: './riodejaneiro2/riodejaneiro2.module#Riodejaneiro2PageModule' },
+  { path: 'saopaulo3', loadChildren: './saopaulo3/saopaulo3.module#Saopaulo3PageModule' },
+  { path: 'riodejaneiro3', loadChildren: './riodejaneiro3/riodejaneiro3.module#Riodejaneiro3PageModule' },
+  { path: 'saopaulo4', loadChildren: './saopaulo4/saopaulo4.module#Saopaulo4PageModule' },
+  { path: 'riodejaneiro4', loadChildren: './riodejaneiro4/riodejaneiro4.module#Riodejaneiro4PageModule' },
 
 ];
 
