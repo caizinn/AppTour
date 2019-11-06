@@ -10,10 +10,10 @@ export class ArgentinaPage implements OnInit {
   public items;
   ngOnInit(){
     this.items = [
-      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"SÃO PAULO" , link: "/saopaulo1"}, {nome:"RIO DE JANEIRO" , link: "/riodejaneiro1"}] },
-      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"SÃO PAULO" , link: "/home"}]  },
-      { expanded: false, nome:"DIVERSOS", ends:["Rua7","Rua8"]  },
-      { expanded: false, nome:"ESTÁDIO", ends:["Rua9","Rua10"] }
+      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}] },
+      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}]  },
+      { expanded: false, nome:"DIVERSOS", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}]  },
+      { expanded: false, nome:"TEMPLOS", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}] }
     ];
   }
     constructor() {

@@ -9,10 +9,10 @@ export class UsaPage implements OnInit {
   public items;
   ngOnInit(){
     this.items = [
-      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"SÃO PAULO" , link: "/saopaulo1"}, {nome:"RIO DE JANEIRO" , link: "/riodejaneiro1"}] },
-      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"SÃO PAULO" , link: "/home"}]  },
-      { expanded: false, nome:"DIVERSOS", ends:["Rua7","Rua8"]  },
-      { expanded: false, nome:"ESTÁDIO", ends:["Rua9","Rua10"] }
+      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"SAN DIEGO" , link: "/"}, {nome:"FRESNO" , link: "/"}] },
+      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"SAN DIEGO" , link: "/"}, {nome:"FRESNO" , link: "/"}]  },
+      { expanded: false, nome:"DIVERSOS", ends:[{nome:"SAN DIEGO" , link: "/"}, {nome:"FRESNO" , link: "/"}]  },
+      { expanded: false, nome:"TEMPLOS", ends:[{nome:"SAN DIEGO" , link: "/"}, {nome:"FRESNO" , link: "/"}] }
     ];
   }
     constructor() {
