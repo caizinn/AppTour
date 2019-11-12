@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="primary">
+  <ion-title color = "light" style = "text-align:center" >BRASIL</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p style="text-align:center">ATRATIVOS TURÍSTICOS</p>
+  <ion-card (click)="expandItem(item)" *ngFor="let item of items">
+    <ion-card-header>
+      <ion-card-title>{{item.nome}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <app-expandable expandHeight="100px" [expanded]="item.expanded">
+        <ion-item color="transparent" [routerLink]="e.link" *ngFor="let e of item.ends">{{e.nome}}</ion-item>
+      </app-expandable>
+    </ion-card-content>
+  </ion-card>
+  <ion-button href="/home" color="dark" expand="block">VOLTAR</ion-button>
+</ion-content>
