@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { PortugalPage } from './portugal.page';
+import { ExpandableComponent } from "../components/expandable/expandable.component";
 
 const routes: Routes = [
   {
@@ -21,6 +22,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [PortugalPage]
+  declarations: [PortugalPage, ExpandableComponent]
 })
 export class PortugalPageModule {}
