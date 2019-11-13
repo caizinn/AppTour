@@ -10,10 +10,10 @@ export class ArgentinaPage implements OnInit {
   public items;
   ngOnInit(){
     this.items = [
-      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}] },
-      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}]  },
-      { expanded: false, nome:"DIVERSOS", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}]  },
-      { expanded: false, nome:"TEMPLOS", ends:[{nome:"BUENOS AIRES" , link: "/"}, {nome:"SAN MARTÍN" , link: "/"}] }
+      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"BUENOS AIRES" , link: "/arquiteturaba"}, {nome:"SAN MARTÍN" , link: "/arquiteturasm"}] },
+      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"BUENOS AIRES" , link: "/bibliotecaba"}, {nome:"SAN MARTÍN" , link: "/bibliotecasm"}]  },
+      { expanded: false, nome:"DIVERSOS", ends:[{nome:"BUENOS AIRES" , link: "/diversosba"}, {nome:"SAN MARTÍN" , link: "/diversossm"}]  },
+      { expanded: false, nome:"TEMPLOS", ends:[{nome:"BUENOS AIRES" , link: "/templosba"}, {nome:"SAN MARTÍN" , link: "/templossm"}] }
     ];
   }
     constructor() {

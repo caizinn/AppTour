@@ -24,6 +24,14 @@ const routes: Routes = [
   { path: 'diversosfr', loadChildren: './diversosfr/diversosfr.module#DiversosfrPageModule' },
   { path: 'templossd', loadChildren: './templossd/templossd.module#TemplossdPageModule' },
   { path: 'templosfr', loadChildren: './templosfr/templosfr.module#TemplosfrPageModule' },
+  { path: 'arquiteturaba', loadChildren: './arquiteturaba/arquiteturaba.module#ArquiteturabaPageModule' },
+  { path: 'arquiteturasm', loadChildren: './arquiteturasm/arquiteturasm.module#ArquiteturasmPageModule' },
+  { path: 'bibliotecaba', loadChildren: './bibliotecaba/bibliotecaba.module#BibliotecabaPageModule' },
+  { path: 'bibliotecasm', loadChildren: './bibliotecasm/bibliotecasm.module#BibliotecasmPageModule' },
+  { path: 'diversosba', loadChildren: './diversosba/diversosba.module#DiversosbaPageModule' },
+  { path: 'diversossm', loadChildren: './diversossm/diversossm.module#DiversossmPageModule' },
+  { path: 'templosba', loadChildren: './templosba/templosba.module#TemplosbaPageModule' },
+  { path: 'templossm', loadChildren: './templossm/templossm.module#TemplossmPageModule' },
 ];
 
 @NgModule({
