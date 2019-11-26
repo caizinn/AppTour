@@ -9,10 +9,10 @@ export class PortugalPage implements OnInit {
   public items;
   ngOnInit(){
     this.items = [
-      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"PORTO" , link: "/arquiteturapo"}, {nome:"COIMBRA" , link: "/arquiteturaco"}] },
-      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"PORTO" , link: "/bibliotecapo"}, {nome:"COIMBRA" , link: "/bibliotecaco"}]  },
-      { expanded: false, nome:"DIVERSOS", ends:[{nome:"PORTO" , link: "/diversospo"}, {nome:"COIMBRA" , link: "/diversosco"}]  },
-      { expanded: false, nome:"TEMPLOS", ends:[{nome:"PORTO" , link: "/templospo"}, {nome:"COIMBRA" , link: "/templosco"}] }
+      { expanded: false, nome:"ARQUITETURA", ends:[{nome:"PORTO" , link: "/arquiteturapt"}, {nome:"COIMBRA" , link: "/arquiteturacb"}] },
+      { expanded: false, nome:"BIBLIOTECA", ends:[{nome:"PORTO" , link: "/bibliotecapt"}, {nome:"COIMBRA" , link: "/bibliotecacb"}]  },
+      { expanded: false, nome:"DIVERSOS", ends:[{nome:"PORTO" , link: "/diversospt"}, {nome:"COIMBRA" , link: "/diversoscb"}]  },
+      { expanded: false, nome:"TEMPLOS", ends:[{nome:"PORTO" , link: "/templospt"}, {nome:"COIMBRA" , link: "/temploscb"}] }
     ];
   }
     constructor() {

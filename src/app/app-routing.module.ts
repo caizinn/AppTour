@@ -31,7 +31,15 @@ const routes: Routes = [
   { path: 'diversosba', loadChildren: './diversosba/diversosba.module#DiversosbaPageModule' },
   { path: 'diversossm', loadChildren: './diversossm/diversossm.module#DiversossmPageModule' },
   { path: 'templosba', loadChildren: './templosba/templosba.module#TemplosbaPageModule' },
-  { path: 'templossm', loadChildren: './templossm/templossm.module#TemplossmPageModule' },
+  { path: 'templossm', loadChildren: './templossm/templossm.module#TemplossmPageModule' },  { path: 'arquiteturapt', loadChildren: './arquiteturapt/arquiteturapt.module#ArquiteturaptPageModule' },
+  { path: 'arquiteturacb', loadChildren: './arquiteturacb/arquiteturacb.module#ArquiteturacbPageModule' },
+  { path: 'bibliotecapt', loadChildren: './bibliotecapt/bibliotecapt.module#BibliotecaptPageModule' },
+  { path: 'bibliotecacb', loadChildren: './bibliotecacb/bibliotecacb.module#BibliotecacbPageModule' },
+  { path: 'diversospt', loadChildren: './diversospt/diversospt.module#DiversosptPageModule' },
+  { path: 'diversoscb', loadChildren: './diversoscb/diversoscb.module#DiversoscbPageModule' },
+  { path: 'templospt', loadChildren: './templospt/templospt.module#TemplosptPageModule' },
+  { path: 'temploscb', loadChildren: './temploscb/temploscb.module#TemploscbPageModule' },
+
 ];
 
 @NgModule({
