@@ -1,2 +1,2 @@
 # apptour
-Aplicativo de finalização de TCC em curso de Desenvolvimento de Sistema
+Aplicativo de finalização de TCC no curso de Desenvolvimento de Sistema
